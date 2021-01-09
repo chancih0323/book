@@ -27,40 +27,20 @@
 			justify-content: center;
 			align-items: center;
 		}
-		.x{
-			justify-content: center;
-			align-items: center;position: absolute;
-			top: 200;
-			left: 1000;
-			width: 10%;
-			height: 10%;
-			z-index: 10;
-			background: rgba(50,0,0,0.3);
-			display: flex;
-		}
-
+		
 </style>
 
 </head>
 <body>
-	<p>產品介紹</p>
-	<h1>智慧型客語機器人</h1>
+	<p>特賣產品</p>
+	<h1>IKEA填充玩偶</h1>
 	<div class="husky">
 		<img src="https://s.zimedia.com.tw/s/q46vTD-0">
-	</div>
-	<div class="x">
-		<img src="x.png">
 	</div>
 
 	<script type='text/javascript'>
 		$('p').click(function(){
 			$('.husky').slideToggle();
-		$('.x').slideToggle();
-		});
-		$('.x').click(function(){
-			$('.husky').slideToggle();
-			$('.x').slideToggle();
-		});
 	</script>
 </body>
 </html>
